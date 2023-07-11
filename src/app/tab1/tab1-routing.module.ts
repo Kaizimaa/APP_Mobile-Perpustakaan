@@ -4,7 +4,7 @@ import { Tab1Page } from './tab1.page';
 
 const routes: Routes = [
   {
-    path: '',
+    path: 'tabs',
     component: Tab1Page,
   }
 ];
@@ -13,4 +13,4 @@ const routes: Routes = [
   imports: [RouterModule.forChild(routes)],
   exports: [RouterModule]
 })
-export class Tab1PageRoutingModule {}
+export class Tab1PageRoutingModule { }

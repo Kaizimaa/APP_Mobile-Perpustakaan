@@ -21,15 +21,19 @@
     "@angular/platform-browser": "^16.0.0",
     "@angular/platform-browser-dynamic": "^16.0.0",
     "@angular/router": "^16.0.0",
+    "@capacitor-community/http": "^1.4.1",
+    "@ionic-native/network": "^5.36.0",
     "@ionic/angular": "^7.0.0",
     "@ionic/cordova-builders": "^9.0.0",
+    "boostrap": "^2.0.0",
+    "ionic-native": "^2.9.0",
     "ionicons": "^7.0.0",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.13.0"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "^16.0.0",
+    "@angular-devkit/build-angular": "^16.0.5",
     "@angular-eslint/builder": "^16.0.0",
     "@angular-eslint/eslint-plugin": "^16.0.0",
     "@angular-eslint/eslint-plugin-template": "^16.0.0",
@@ -59,5 +63,8 @@
     "ts-node": "^8.3.0",
     "typescript": "~5.0.2"
   },
-  "description": "An Ionic project"
+  "description": "An Ionic project",
+  "config": {
+    "ionic_sass": "./sass.config.js"
+  }
 }
